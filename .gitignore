@@ -1,0 +1,24 @@
+# Godot 4 generated cache
+.godot/
+
+# Local export credentials / presets
+export.cfg
+export_presets.cfg
+
+# Exported builds and packages
+/build/
+/exports/
+/exported/
+*.exe
+*.app
+*.pck
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+PRIVATE_VISUAL_VALIDATION_REPORT.json

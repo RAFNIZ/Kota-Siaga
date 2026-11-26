@@ -1,0 +1,234 @@
+{
+  "project": "Kota Siaga \u2014 PremiumMenus PlayerNPC Animations",
+  "target_engine": "Godot 4.7.2",
+  "audio_manager_autoload": true,
+  "dedicated_bgm": {
+    "menu": "res://assets/audio/bgm_menu.wav",
+    "menu_duration_seconds": 56.471,
+    "gameplay": "res://assets/audio/bgm_gameplay.wav",
+    "gameplay_duration_seconds": 45.714,
+    "crossfade_seconds": 1.35,
+    "music_player": "BackgroundMusic",
+    "ambience_player": "WorldAmbience",
+    "watchdog_seconds": 0.75
+  },
+  "ui_audio_hooks": {
+    "general_button_hover_and_confirm": true,
+    "character_showroom_hover_and_confirm": true,
+    "language_dropdown_open_and_select": true,
+    "settings_slider_hover_and_drag": true,
+    "stage_change_cue": true
+  },
+  "gdscript_file_count": 18,
+  "delimiter_and_duplicate_function_static_issues": [],
+  "resource_references_checked": 96,
+  "missing_resource_references": 0,
+  "wav_files": [
+    {
+      "file": "bgm_gameplay.wav",
+      "channels": 2,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 45.714,
+      "rms": 0.11864,
+      "peak": 0.45004,
+      "non_silent": true
+    },
+    {
+      "file": "bgm_menu.wav",
+      "channels": 2,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 56.471,
+      "rms": 0.10762,
+      "peak": 0.42712,
+      "non_silent": true
+    },
+    {
+      "file": "city_ambience.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 18.0,
+      "rms": 0.16688,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "disaster_alert.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 1.15,
+      "rms": 0.50731,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "flood_loop.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 9.0,
+      "rms": 0.14821,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "footstep.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 0.19,
+      "rms": 0.14322,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "footstep_run.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 0.145,
+      "rms": 0.13272,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "interact.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 0.26,
+      "rms": 0.17356,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "menu_ambient.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 24.0,
+      "rms": 0.28894,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "player_jump.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 0.34,
+      "rms": 0.23287,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "player_land.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 0.23,
+      "rms": 0.18126,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "rain_loop.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 9.0,
+      "rms": 0.16969,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "siren_relay.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 2.6,
+      "rms": 0.23275,
+      "peak": 0.39862,
+      "non_silent": true
+    },
+    {
+      "file": "tornado_loop.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 12.0,
+      "rms": 0.13204,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "ui_back.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 0.24,
+      "rms": 0.21332,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "ui_confirm.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 0.48,
+      "rms": 0.19951,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "ui_hover.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 0.14,
+      "rms": 0.21968,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "vehicle_engine_loop.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 4.0,
+      "rms": 0.29712,
+      "peak": 0.81995,
+      "non_silent": true
+    },
+    {
+      "file": "wind_loop.wav",
+      "channels": 1,
+      "sample_rate": 22050,
+      "bits": 16,
+      "duration_seconds": 10.0,
+      "rms": 0.14385,
+      "peak": 0.81995,
+      "non_silent": true
+    }
+  ],
+  "integration_checks": {
+    "audio_manager_autoload": true,
+    "menu_bgm_preloaded": true,
+    "gameplay_bgm_preloaded": true,
+    "dedicated_bgm_player": true,
+    "menu_mode_starts_bgm": true,
+    "game_mode_starts_bgm": true,
+    "all_generic_ui_buttons_confirm": true,
+    "custom_showroom_buttons_confirm": true,
+    "settings_dropdown_audio": true,
+    "settings_slider_audio": true,
+    "gameplay_bgm_watchdog": true,
+    "stage_change_audio": true
+  },
+  "runtime_tested": false,
+  "runtime_test_note": "Godot 4.7.2 executable is not installed in the editing environment; validate actual playback and mix balance in the editor on the target machine."
+}

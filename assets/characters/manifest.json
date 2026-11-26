@@ -1,0 +1,56 @@
+{
+  "coordinate_system": "glTF Y-up; model faces +Z",
+  "units": "meters",
+  "static_meshes": true,
+  "rigged": false,
+  "animations": false,
+  "player_assets": [
+    {
+      "name": "Petugas Pemadam",
+      "path": "assets/characters/player/player_firefighter.glb",
+      "rigged": false
+    },
+    {
+      "name": "Paramedis",
+      "path": "assets/characters/player/player_paramedic.glb",
+      "rigged": false
+    },
+    {
+      "name": "Evakuasi dan Logistik",
+      "path": "assets/characters/player/player_logistics.glb",
+      "rigged": false
+    },
+    {
+      "name": "Polisi",
+      "path": "assets/characters/player/player_police.glb",
+      "rigged": false
+    }
+  ],
+  "npc_assets": [
+    {
+      "name": "Warga Dewasa",
+      "path": "assets/characters/npc/npc_civilian.glb",
+      "rigged": false
+    },
+    {
+      "name": "Warga Lansia",
+      "path": "assets/characters/npc/npc_elder.glb",
+      "rigged": false
+    },
+    {
+      "name": "Anak",
+      "path": "assets/characters/npc/npc_child.glb",
+      "rigged": false
+    },
+    {
+      "name": "Pengguna Kursi Roda",
+      "path": "assets/characters/npc/npc_wheelchair.glb",
+      "rigged": false
+    },
+    {
+      "name": "Korban Cedera",
+      "path": "assets/characters/npc/npc_injured.glb",
+      "rigged": false
+    }
+  ]
+}
