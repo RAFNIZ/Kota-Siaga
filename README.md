@@ -39,11 +39,3 @@ Kota Siaga/
 ├── project.godot # Konfigurasi utama project Godot
 └── README.md
 ```
-
-## Catatan Pengembangan
-
-- Pertahankan folder `assets`, `scenes`, dan `scripts` beserta file `project.godot` dalam satu struktur folder.
-- Saat pertama kali dibuka, Godot mungkin membutuhkan waktu untuk mengimpor aset.
-- Folder cache lokal `.godot/` tidak perlu diunggah ke GitHub; folder tersebut sudah dikecualikan melalui `.gitignore`.
-- File `.gd.uid` dan `.import` tetap disertakan sebagai bagian dari metadata project.
-- Sebelum repository dibuat publik, pastikan seluruh aset pihak ketiga yang digunakan memang memiliki izin untuk didistribusikan.
